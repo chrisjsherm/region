@@ -2,7 +2,7 @@
   "name": "@chrisjsherm/region",
   "version": "1.0.0",
   "description": "Domain model of a geographic region.",
-  "main": "Region.js",
+  "main": "src/Region.js",
   "scripts": {
     "test:unit": "mocha --require @babel/register src/**/*.spec.js",
     "test:unit:watch": "onchange ./src/**/*.js -- npm run test:unit"
