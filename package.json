@@ -1,0 +1,25 @@
+{
+  "name": "@chrisjsherm/region",
+  "version": "1.0.0",
+  "description": "Domain model of a geographic region.",
+  "main": "Region.js",
+  "scripts": {
+    "test:unit": "mocha --require @babel/register src/**/*.spec.js",
+    "test:unit:watch": "onchange ./src/**/*.js -- npm run test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisjsherm/region.git"
+  },
+  "author": "Christopher Sherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjsherm/region/issues"
+  },
+  "homepage": "https://github.com/chrisjsherm/region#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2"
+  }
+}
