@@ -1,6 +1,6 @@
 {
   "name": "@chrisjsherm/region",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Domain model of a geographic region.",
   "main": "src/Region.js",
   "scripts": {
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/chrisjsherm/region#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "prettier": "^1.18.2"
