@@ -1,6 +1,6 @@
 {
   "name": "@chrisjsherm/region",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Domain model of a geographic region.",
   "main": "src/Region.js",
   "scripts": {
